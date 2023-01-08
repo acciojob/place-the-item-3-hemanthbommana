@@ -1,14 +1,11 @@
 .holder{
 	display:flex;
-	flex-wrap:nowrap;
-	background-color:red;
+	flex-wrap:wrap;
+	align-itmes:center;
+	justify-content:space-evenly;
+	text-align:center;
+	
+	
 }
-.holder >div{
-	background-color:blue;
-  width: 200px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-}
+
 /* Your CSS Code here. */
